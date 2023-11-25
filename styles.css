@@ -1,0 +1,99 @@
+/* CSS Reset */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+
+body {
+  margin: 10px;
+  
+}
+
+/* Colors */
+
+
+h1 {
+
+}
+
+.color-container {
+width: 100%;
+border: 1px;
+border-style: solid;
+border-color: black;
+
+}
+
+div {
+display: block;
+padding: 10px;
+}
+
+p {
+display: block;
+}
+
+.color-block {
+display: inline-block;
+width: 30%;
+margin: 20px auto;
+text-align: center;
+min-height: 100px;
+}
+
+.navy {
+background-color: #02315E;
+color: whitesmoke;
+}
+
+.blue {
+background-color: #00457E;
+color: whitesmoke;
+}
+
+.lightblue {
+background-color: #2F70AF;
+color: whitesmoke;
+}
+
+.pink {
+background-color: #B9848C;
+color: whitesmoke;
+}
+
+.purple {
+background-color: #806491;
+color: whitesmoke;
+}
+
+/* Fonts */
+
+
+.fonts-container {
+border-top: 10px;
+width: 100%;
+border: 1px;
+border-style: solid;
+border-color: black;
+}
