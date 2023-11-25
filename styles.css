@@ -28,6 +28,8 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   margin: 10px;
   font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 /* Colors */
@@ -167,4 +169,10 @@ h1 {
   font-weight: 700;
   font-size: 26px;
   font-family: 'Noto Sans', sans-serif;;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
