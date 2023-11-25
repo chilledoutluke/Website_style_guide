@@ -27,7 +27,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 body {
   margin: 10px;
-  
+  font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 /* Colors */
@@ -89,7 +89,9 @@ color: whitesmoke;
 
 
 
-.font-label {
+.font-label,
+.font-label1,
+.font-label2 {
   text-decoration: underline;
 }
 
@@ -114,16 +116,55 @@ color: whitesmoke;
   font-style: italic;
 }
 
-.font-label2,
+
+.font-label1,
 .mont,
 .mont1,
 .mont2
 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.mont {
+  font-style: normal;
+}
+
+.mont1 {
+  font-weight: bold;
+}
+
+.mont2 {
+  font-style: italic;
+}
+
+.font-label2,
+.noto,
+.noto1,
+.noto2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.noto  {
+  font-style: normal;
+  font-weight: 7;
   
 }
 
+.noto1 {
+  font-weight: 700
+}
 
+.noto2 {
+  font-style: italic;
+  font-weight: 7;
+}
 
-font-family: 'Encode Sans Condensed', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Noto Sans', sans-serif;
+h1 {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: 'Noto Sans', sans-serif;;
+}
