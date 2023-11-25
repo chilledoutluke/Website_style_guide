@@ -92,3 +92,38 @@ color: whitesmoke;
 .font-label {
   text-decoration: underline;
 }
+
+.font-label,
+.encode,
+.encode1,
+.encode2
+ {
+  font-family:'Encode Sans Condensed', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.encode {
+  font-style: normal;
+}
+
+.encode1 {
+  font-weight: bolder;
+}
+.encode2 {
+  font-style: italic;
+}
+
+.font-label2,
+.mont,
+.mont1,
+.mont2
+{
+  
+}
+
+
+
+font-family: 'Encode Sans Condensed', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
