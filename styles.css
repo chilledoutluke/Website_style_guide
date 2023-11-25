@@ -33,15 +33,12 @@ body {
 /* Colors */
 
 
-h1 {
-
-}
-
-.color-container {
+.container {
 width: 100%;
 border: 1px;
 border-style: solid;
 border-color: black;
+margin: 10px auto;
 
 }
 
@@ -90,10 +87,3 @@ color: whitesmoke;
 /* Fonts */
 
 
-.fonts-container {
-border-top: 10px;
-width: 100%;
-border: 1px;
-border-style: solid;
-border-color: black;
-}
